@@ -1,0 +1,160 @@
+@media (max-width: 1200px) {
+  .festival__wrapper {
+    justify-content: center;
+  }
+
+  .festival__img {
+    height: 580px;
+  }
+
+  .conference__wrapper {
+    gap: 0;
+    display: block;
+  }
+
+  .conference__box .conference__img:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .conference__img {
+    margin: 10px auto 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    padding: 20px 0 15px 0;
+  }
+
+  .logo__img {
+    height: 50px;
+  }
+
+  .header__list {
+    position: fixed;
+    display: block;
+    overflow: hidden;
+    overflow-y: scroll;
+    top: -200%;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #222323;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    opacity: 92%;
+    transition: all 0.5s;
+    z-index: 1;
+  }
+
+  .header__social {
+    display: flex;
+  }
+
+  .header__list.active {
+    top: 65px;
+  }
+
+  .header__item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .header__burger {
+    display: block;
+    z-index: 2;
+  }
+}
+
+@media (max-width: 850px) {
+  .title {
+    font-size: 60px;
+  }
+
+  .about__text,
+  .festival__text,
+  .conference__text,
+  .festival-two__text {
+    font-size: 18px;
+  }
+
+  .about__container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about__img {
+    margin: 15px auto 0;
+  }
+
+  .about__wrapper {
+    order: -1;
+  }
+
+  .festival__img {
+    height: 400px;
+  }
+}
+
+@media (max-width: 650px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .about,
+  .festival,
+  .conference,
+  .festival-two,
+  .footer {
+    padding: 40px 0;
+  }
+
+  .logo__img {
+    height: 35px;
+  }
+
+  .about__text,
+  .festival__text,
+  .conference__text,
+  .festival-two__text {
+    font-size: 16px;
+  }
+
+  .festival__link,
+  .conference__link,
+  .festival-two__link {
+    margin-bottom: 15px;
+  }
+
+  .festival__img {
+    height: 245px;
+  }
+
+  .footer__wrapper {
+    display: block;
+  }
+
+  .footer__list {
+    margin-top: -10px;
+  }
+
+  .footer__nav:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  .footer__items {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about__img {
+    height: 300px;
+  }
+
+  .festival__img {
+    height: 220px;
+  }
+}
