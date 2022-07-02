@@ -103,7 +103,10 @@
     font-size: 35px;
   }
 
-  .about,
+  .about {
+    padding: 110px 0 40px;
+  }
+
   .festival,
   .conference,
   .festival-two,
